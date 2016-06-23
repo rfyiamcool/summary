@@ -10,3 +10,9 @@ text = requests.get(url).text
 keyword = u"峰云"
 summary_text = summary(text, keyword, 1, 145)
 
+keyword = u"python"
+summary_text = summary(text, keyword, 1, 145)
+
+keyword = u"golang"
+summary_text = summary(text, keyword, 1, 145)
+
